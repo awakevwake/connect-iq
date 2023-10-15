@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: request-response-repo-svc
+
+  datasource:
+    driverClassname: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/cameldb
+    username: camel
+    password: camel
+
+server:
+  port: 9091
+
